@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.javafx1.HelloController"
+            prefWidth="805" prefHeight="605"
+            style="-fx-background-color:#FFD700;">
+
+    <top>
+        <Label text="Student Management" style="-fx-font-size: 36px; -fx-font-weight: bold; -fx-text-fill: red; -fx-padding: 0 0 0 320;"/>
+    </top>
+
+    <center>
+        <VBox spacing="15">
+            <HBox spacing="12">
+                <Label text="Student ID" style="-fx-text-fill: red;"/>
+                <Button text=" " style="-fx-background-color: yellow;" prefWidth="50"/>
+                <Label text="Name of Student" style="-fx-text-fill: red;"/>
+                <Button text=" " style="-fx-background-color: yellow;" prefWidth="180"/>
+                <Label text="Name of Student" style="-fx-text-fill: red;"/>
+                <Button text=" " style="-fx-background-color: yellow;" prefWidth="280"/>
+            </HBox>
+
+            <HBox spacing="15" style="-fx-padding: 0 0 0 260;">
+                <Button text="Add a Student" style="-fx-background-color: #CCFFCC; -fx-text-fill: black;"/>
+                <Button text="Get Student Details" style="-fx-background-color: #CCFFCC; -fx-text-fill: black;"/>
+                <Button text="Save and Quit" style="-fx-background-color: #CCFFCC; -fx-text-fill: black;"/>
+            </HBox>
+
+            <TextArea prefRowCount="5" promptText="Enter text here..." style="-fx-background-color: white; -fx-pref-width: 90%; -fx-padding: 10px; -fx-margin: 10px;" />
+            <HBox spacing="15">
+                <Label text="Name of Module" style="-fx-text-fill: red;"/>
+                <Button text=" " style="-fx-background-color: yellow;" prefWidth="60"/>
+                <Label text="Time of Module" style="-fx-text-fill: red;"/>
+                <Button text=" " style="-fx-background-color: yellow;" prefWidth="60"/>
+                <Label text="Module Id" style="-fx-text-fill: red;"/>
+                <Button text=" " style="-fx-background-color: yellow;" prefWidth="60"/>
+                <Label text="Lecturer Name" style="-fx-text-fill: red;"/>
+                <Button text=" " style="-fx-background-color: yellow;" prefWidth="200"/>
+            </HBox>
+            <HBox spacing="15" style="-fx-padding: 0 0 0 205;">
+                <Button text="Register for Module" style="-fx-background-color: #CCFFCC; -fx-text-fill: black;"/>
+                <Button text="List Modules" style="-fx-background-color: #CCFFCC; -fx-text-fill: black;"/>
+                <Button text="List Modules" style="-fx-background-color: #CCFFCC; -fx-text-fill: black;"/>
+                <Button text="Record Marks" style="-fx-background-color: #CCFFCC; -fx-text-fill: black;"/>
+            </HBox>
+            <TextArea prefRowCount="5" promptText="Enter text here..." style="-fx-background-color: white; -fx-pref-width: 90%; -fx-padding: 10px; -fx-margin: 10px;" />
+
+        </VBox>
+    </center>
+
+</BorderPane>
+
